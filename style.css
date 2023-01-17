@@ -4,37 +4,31 @@
     Margin: 0;
 }
 body {
-    max-width: 1440px;
     margin: 0 auto;
 }
 
 header h1 {
-    font-size: 1.5em;
     font-family: 'Inconsolata', sans-serif;
 }
 
 main {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
 main img {
-    width: 50%;
+    width: 100%;
 }
 
 main div {
-    width: 50%;
 }
 
 main div h2 {
-    font-size: 4em;
     font-family: 'Space Mono', sans-serif;
     color: #333333;
 }
 
 main div h3 {
-    font-size: 1.5em;
     font-family: 'Space Mono', sans-serif;
     color: #4F4F4F;
     font-weight: 400;
@@ -55,3 +49,13 @@ footer p {
 footer p a {
     color: #9e9e9e;
 }
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
